@@ -15,19 +15,21 @@ class AssistantController {
     * */
     // @Autowired
     Assistant assistant;
-
-    private final ManualAssistant manualAssistant;
+    public AssistantController(Assistant assistant) {
+        this.assistant = assistant;
+    }
+    @GetMapping("/chat")
+    public String chat(String message) {
+        String response = assistant.chat(message);
+        return response;
+    }
+    // private final ManualAssistant manualAssistant;
 
     // Spring ve que el controlador necesita el asistente.
     // Como YA LO CREÓ en el paso anterior (con la key inyectada),
     // simplemente se lo pasa aquí.
-    public AssistantController(ManualAssistant manualAssistant) {
+    /*public AssistantController(ManualAssistant manualAssistant) {
         this.manualAssistant = manualAssistant;
-    }
+    }*/
 
-    @GetMapping("/chat")
-    public String chat(String message) {
-        String response = manualAssistant.chat(message);
-        return response;
-    }
 }
