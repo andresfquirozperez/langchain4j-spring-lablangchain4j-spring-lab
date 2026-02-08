@@ -58,24 +58,13 @@
 		</dependency>
 		<dependency>
 			<groupId>dev.langchain4j</groupId>
-			<artifactId>langchain4j-open-ai-spring-boot-starter</artifactId>
-			<version>1.11.0-beta19</version>
+			<artifactId>langchain4j</artifactId>
+			<version>1.11.0</version>
 		</dependency>
 		<dependency>
 			<groupId>dev.langchain4j</groupId>
-			<artifactId>langchain4j-spring-boot-starter</artifactId>
-			<version>1.11.0-beta19</version>
-		</dependency>
-		<dependency>
-			<groupId>dev.langchain4j</groupId>
-			<artifactId>langchain4j-google-ai-gemini-spring-boot-starter</artifactId>
-			<version>1.11.0-beta19</version>
-			<exclusions>
-				<exclusion>
-					<groupId>dev.langchain4j</groupId>
-					<artifactId>langchain4j-http-client-jdk</artifactId>
-				</exclusion>
-			</exclusions>
+			<artifactId>langchain4j-google-ai-gemini</artifactId>
+			<version>1.11.0</version>
 		</dependency>
 	</dependencies>
 
