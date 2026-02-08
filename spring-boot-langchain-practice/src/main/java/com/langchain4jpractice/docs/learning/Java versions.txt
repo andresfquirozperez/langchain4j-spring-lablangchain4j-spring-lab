@@ -13,3 +13,7 @@ java -version
 doc
 https://docs.langchain4j.dev/get-started/
 https://docs.langchain4j.dev/tutorials/spring-boot-integration/
+
+----------------------------------------------------------------------
+Ver a que modelo tengo acceso con mi API_KEY de Gemini
+https://generativelanguage.googleapis.com/v1beta/models?key=AQUI_TU_API_KEY
