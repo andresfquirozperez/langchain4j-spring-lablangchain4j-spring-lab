@@ -1,6 +1,6 @@
 package com.langchain4jpractice.geminiExamples.config;
 
-import com.langchain4jpractice.geminiExamples.service.Assistant;
+/*import com.langchain4jpractice.geminiExamples.service.Assistant;
 import com.langchain4jpractice.geminiExamples.tools.CalculadoraTools;
 import com.langchain4jpractice.geminiExamples.tools.TrelloTools;
 import dev.langchain4j.memory.ChatMemory;
@@ -10,12 +10,12 @@ import dev.langchain4j.model.googleai.GoogleAiGeminiChatModel;
 import dev.langchain4j.service.AiServices;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Configuration;*/
 
-@Configuration
+// @Configuration
 public class AiConfig {
 
-    @Bean
+  /*  @Bean
     public Assistant assistant(@Value("${langchain4j.google-ai-gemini.chat-model.api-key}") String apiKey,
                                CalculadoraTools calculadoraTools,
                                TrelloTools trelloTools) {
@@ -37,7 +37,7 @@ public class AiConfig {
                 .chatMemory(memory)
                 .tools(calculadoraTools, trelloTools)
                 .build();
-    }
+    }*/
 }
 
 

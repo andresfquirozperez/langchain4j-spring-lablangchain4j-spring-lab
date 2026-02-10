@@ -12,7 +12,7 @@ class AssistantController {
     git El controlador es solo un recepcionista; no sabe de IAs, solo sabe pasar mensajes.
     * */
     // @Autowired
-    Assistant assistant;
+    /*Assistant assistant;
     public AssistantController(Assistant assistant) {
         this.assistant = assistant;
     }
@@ -20,7 +20,7 @@ class AssistantController {
     public String chat(String message) {
         String response = assistant.chat(message);
         return response;
-    }
+    }*/
     // private final ManualAssistant manualAssistant;
 
     // Spring ve que el controlador necesita el asistente.

@@ -1,6 +1,6 @@
 package com.langchain4jpractice.geminiExamples.service;
 
-import dev.langchain4j.service.SystemMessage;
+// import dev.langchain4j.service.SystemMessage;
 
 /**
  LangChain4j utiliza una técnica llamada Dynamic Proxy (Proxy Dinámico) de Java.
@@ -10,7 +10,7 @@ import dev.langchain4j.service.SystemMessage;
 * */
 // @AiService
 public interface Assistant {
-
+/*
     @SystemMessage("You are a polite assistant")
-    String chat(String userMessage);
+    String chat(String userMessage);*/
 }

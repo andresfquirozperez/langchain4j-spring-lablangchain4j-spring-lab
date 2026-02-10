@@ -17,3 +17,13 @@ https://docs.langchain4j.dev/tutorials/spring-boot-integration/
 ----------------------------------------------------------------------
 Ver a que modelo tengo acceso con mi API_KEY de Gemini
 https://generativelanguage.googleapis.com/v1beta/models?key=AQUI_TU_API_KEY
+
+
+| FASE DEL FLUJO           | PENSAMIENTO JAVA (Determinista)                  | PENSAMIENTO IA (Probabilístico)                  | TRADUCCIÓN TÉCNICA (Realidad)            |
+|--------------------------|--------------------------------------------------|--------------------------------------------------|------------------------------------------|
+| 1. Definición Problema   | Algoritmo Exacto: "Si input == 'A', ejecuta B()" | Intención Semántica: "El usuario quiere algo similar a 'A'" | Hard-coded Logic -> Inferencia Dinámica  |
+| 2. Entrada de Datos      | Parámetros Estrictos: public void(int id)        | Contexto Flexible: "Aquí tienes texto sucio, interprétalo" | Strong Typing -> Natural Language        |
+| 3. Búsqueda de Datos     | Búsqueda Exacta: Map.get(key) / SQL WHERE ID=1   | Búsqueda por Similitud: "Dame los 5 textos más parecidos" | Equality -> Cosine Similarity (Vectores) |
+| 4. Lógica de Negocio     | Imperativa: Tú escribes cada paso del flujo      | Declarativa / Agente: Tú das las herramientas, él decide el orden | Control Flow -> Chain of Thought         |
+| 5. Persistencia          | Base de Datos / Sesión: Variables en memoria     | Ventana de Contexto: Todo el historial de chat se reenvía | Stateful Object -> Stateless Request     |
+| 6. Manejo de Errores     | Try-Catch: Capturas y defines ruta fija          | Self-Correction: "Tu respuesta falló, inténtalo de nuevo" | Exception Handling -> Feedback Loop      |

@@ -1,6 +1,6 @@
 package com.langchain4jpractice.geminiExamples.service;
 
-import dev.langchain4j.data.message.AiMessage;
+/*import dev.langchain4j.data.message.AiMessage;
 import dev.langchain4j.data.message.UserMessage;
 import dev.langchain4j.memory.ChatMemory;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
@@ -8,12 +8,12 @@ import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.chat.request.ChatRequest;
 import dev.langchain4j.model.chat.response.ChatResponse;
 import dev.langchain4j.model.googleai.GoogleAiGeminiChatModel;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.annotation.Value;*/
 import org.springframework.stereotype.Service;
 
 @Service
 public class ManualAssistant {
-    private final ChatModel gemini;
+    /*private final ChatModel gemini;
     private final ChatMemory memory;
 
 
@@ -49,5 +49,5 @@ public class ManualAssistant {
         this.memory.add(aiMessage);
 
         return aiMessage.text();
-    }
+    }*/
 }
