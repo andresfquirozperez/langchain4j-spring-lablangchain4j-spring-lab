@@ -1,4 +1,4 @@
-package com.langchain4jpractice.tools;
+package com.langchain4jpractice.geminiExamples.tools;
 
 import dev.langchain4j.agent.tool.Tool;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,8 +1,6 @@
-package com.langchain4jpractice.controller;
+package com.langchain4jpractice.geminiExamples.controller;
 
-import com.langchain4jpractice.service.Assistant;
-import com.langchain4jpractice.service.ManualAssistant;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.langchain4jpractice.geminiExamples.service.Assistant;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

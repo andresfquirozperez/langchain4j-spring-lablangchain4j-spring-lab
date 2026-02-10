@@ -1,8 +1,8 @@
-package com.langchain4jpractice.config;
+package com.langchain4jpractice.geminiExamples.config;
 
-import com.langchain4jpractice.service.Assistant;
-import com.langchain4jpractice.tools.CalculadoraTools;
-import com.langchain4jpractice.tools.TrelloTools;
+import com.langchain4jpractice.geminiExamples.service.Assistant;
+import com.langchain4jpractice.geminiExamples.tools.CalculadoraTools;
+import com.langchain4jpractice.geminiExamples.tools.TrelloTools;
 import dev.langchain4j.memory.ChatMemory;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.chat.ChatModel;

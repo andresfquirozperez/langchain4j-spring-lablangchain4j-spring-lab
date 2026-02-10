@@ -1,4 +1,4 @@
-package com.langchain4jpractice.service;
+package com.langchain4jpractice.geminiExamples.service;
 
 import dev.langchain4j.service.SystemMessage;
 
