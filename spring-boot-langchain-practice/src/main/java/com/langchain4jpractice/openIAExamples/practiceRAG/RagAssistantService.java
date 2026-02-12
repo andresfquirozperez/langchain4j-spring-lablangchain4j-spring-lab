@@ -1,4 +1,4 @@
-package com.langchain4jpractice.openIAExamples.service;
+package com.langchain4jpractice.openIAExamples.practiceRAG;
 
 // Ojo: Esto es una INTERFAZ, no una clase
 public interface RagAssistantService {

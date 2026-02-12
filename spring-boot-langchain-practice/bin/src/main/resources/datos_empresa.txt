@@ -1,0 +1,21 @@
+=== CONFIDENCIAL: MANUAL DE EMPLEADO DE TECH-VALLUNO S.A.S ===
+
+1. SOBRE NOSOTROS
+Tech-Valluno es la empresa líder en desarrollo de software impulsado por Chontaduro.
+Nuestra misión es llevar la tecnología del Valle del Cauca a Marte antes del 2030.
+
+2. LIDERAZGO
+Nuestro CEO actual es el Sr. "Pandebono" Martínez. Es famoso por programar en Java usando solo la mente.
+La CTO (Directora de Tecnología) es Doña Lulada, experta en Inteligencia Artificial Sostenible.
+
+3. POLÍTICA DE VACACIONES "RELAX TOTAL"
+En Tech-Valluno, las vacaciones son ilimitadas. La única regla es que debes traer cholados para todo el equipo al regresar.
+Si trabajas los domingos, se te paga el triple y se te da un día libre adicional llamado "Día de la Hamaca".
+
+4. CÓDIGO DE VESTIMENTA
+Es obligatorio usar camisetas de equipos de fútbol locales los viernes.
+Está prohibido programar sin tener una taza de café al lado.
+
+5. PROYECTO SECRETO "CALI-9000"
+Estamos desarrollando un robot que baila salsa mientras despliega servidores en AWS.
+El lanzamiento está programado para la Feria de Cali del próximo año.

@@ -1,6 +1,5 @@
-package com.langchain4jpractice.openIAExamples.config;
+package com.langchain4jpractice.openIAExamples.practiceRAG;
 
-import com.langchain4jpractice.openIAExamples.service.RagAssistantService;
 import dev.langchain4j.data.document.Document;
 import dev.langchain4j.data.document.loader.FileSystemDocumentLoader;
 import dev.langchain4j.data.document.parser.TextDocumentParser;
@@ -21,8 +20,6 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.io.File;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Path;
 import java.nio.file.Paths;

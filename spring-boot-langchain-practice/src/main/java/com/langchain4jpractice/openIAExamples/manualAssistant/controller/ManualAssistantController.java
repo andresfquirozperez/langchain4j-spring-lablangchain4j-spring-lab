@@ -1,6 +1,6 @@
-package com.langchain4jpractice.openIAExamples.controller;
+package com.langchain4jpractice.openIAExamples.manualAssistant.controller;
 
-import com.langchain4jpractice.openIAExamples.service.ManualAssistantService;
+import com.langchain4jpractice.openIAExamples.manualAssistant.ManualAssistantService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

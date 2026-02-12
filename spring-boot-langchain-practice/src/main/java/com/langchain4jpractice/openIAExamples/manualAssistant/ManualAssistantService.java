@@ -1,4 +1,4 @@
-package com.langchain4jpractice.openIAExamples.service;
+package com.langchain4jpractice.openIAExamples.manualAssistant;
 
 import dev.langchain4j.data.message.UserMessage;
 import dev.langchain4j.model.chat.ChatModel;

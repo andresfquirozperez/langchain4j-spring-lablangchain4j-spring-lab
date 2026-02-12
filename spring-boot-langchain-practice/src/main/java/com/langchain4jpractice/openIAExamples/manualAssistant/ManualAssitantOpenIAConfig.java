@@ -1,4 +1,4 @@
-package com.langchain4jpractice.openIAExamples.config;
+package com.langchain4jpractice.openIAExamples.manualAssistant;
 
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.chat.request.ChatRequestParameters;
