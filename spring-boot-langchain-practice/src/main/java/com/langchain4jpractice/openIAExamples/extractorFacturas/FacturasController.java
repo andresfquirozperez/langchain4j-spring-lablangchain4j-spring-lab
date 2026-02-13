@@ -1,17 +1,23 @@
 package com.langchain4jpractice.openIAExamples.extractorFacturas;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
+@RequestMapping("/api/v1/facturas")
 public class FacturasController {
 
-    ExtractorFacturas extractorFacturas;
+    ExtractorFacturasService extractorFacturasService;
 
-    public FacturasController(ExtractorFacturas extractorFacturas) {
-        this.extractorFacturas = extractorFacturas;
+    public FacturasController(ExtractorFacturasService extractorFacturasService) {
+        this.extractorFacturasService = extractorFacturasService;
     }
 
-    public ResponseEntity<Factura> extractorDeFactura(String factura) {
-        Factura facturaLimpia =   extractorFacturas.analizarTexto(factura);
-        return ResponseEntity.ok(facturaLimpia);
+    @GetMapping("/extraer")
+    public ResponseEntity<FacturaDTO> extractorDeFactura(String factura) {
+        FacturaDTO facturaDTOLimpia =   extractorFacturasService.analizarTexto(factura);
+        return ResponseEntity.ok(facturaDTOLimpia);
     }
 }

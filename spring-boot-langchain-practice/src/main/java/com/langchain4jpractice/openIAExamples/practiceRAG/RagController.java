@@ -1,6 +1,5 @@
-package com.langchain4jpractice.openIAExamples.manualAssistant.controller;
+package com.langchain4jpractice.openIAExamples.practiceRAG;
 
-import com.langchain4jpractice.openIAExamples.practiceRAG.RagAssistantService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
